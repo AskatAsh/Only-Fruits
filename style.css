@@ -11,9 +11,19 @@
 }
 
 .carousel .hero-overlay {
-    padding: 50px 0px ;
+    padding: 50px 0px;
     border-radius: 8px;
     background: linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%);
+}
+.carousel .carousel-item .hero-content{
+    padding-top: 80px;
+    /* padding-top: auto; */
+    padding-bottom: 200px;
+}
+.fruits {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 576px) {
@@ -22,5 +32,14 @@
         width: 2rem;
         height: 2rem;
         font-size: 0.75rem;
+    }
+    .carousel .carousel-item .hero-content{
+        padding: 40px 0px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    .carousel .carousel-item .hero-content{
+        padding: 80px 0px;
     }
 }
