@@ -196,39 +196,48 @@
         <!-- ====== end ===== -->
     </header>
 
-    <main class="container mx-auto mt-60">
+    <main class="container mx-auto mt-32 xl:mt-60">
         <!-- deals of the day section -->
         <section class="px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-8 md:mb-0 mr-0 md:mr-8">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div class="mb-8 lg:mb-0 mr-0 md:mr-8">
                     <h2 class="text-5xl font-extrabold text-dark-color pb-6">Deals of the day</h2>
                     <p class="text-base text-dark-color font-normal">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div>
-                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-                        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                          <span class="countdown text-5xl font-bold">
+                    <div class="grid grid-flow-col gap-2 lg:gap-4 text-center auto-cols-max text-dark-color">
+                        <div class="flex flex-col">
+                          <span class="countdown text-5xl font-extrabold pb-2">
+                            <span style="--value:29;"></span>
+                          </span>
+                          <span class="opacity-70">Days</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg> 
+                        <div class="flex flex-col">
+                          <span class="countdown text-5xl font-extrabold pb-2">
                             <span style="--value:15;"></span>
                           </span>
-                          days
-                        </div> 
-                        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:10;"></span>
+                          <span class="opacity-70">Hours</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg> 
+                        <div class="flex flex-col">
+                          <span class="countdown text-5xl font-extrabold pb-2">
+                            <span style="--value:25;"></span>
                           </span>
-                          hours
+                          <span class="opacity-70">Minutes</span>
                         </div> 
-                        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:24;"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg> 
+                        <div class="flex flex-col">
+                          <span class="countdown text-5xl font-extrabold pb-2">
+                            <span style="--value:08;"></span>
                           </span>
-                          min
-                        </div> 
-                        <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                          <span class="countdown font-mono text-5xl">
-                            <span style="--value:30;"></span>
-                          </span>
-                          sec
+                          <span class="opacity-70">Seconds</span>
                         </div>
                       </div>
                 </div>
