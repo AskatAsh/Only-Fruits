@@ -2,3 +2,8 @@
 *{
     font-family: 'Lato', sans-serif;
 }
+.carousel .btn-circle{
+    background: #121212;
+    border: none;
+    color: #fff;
+}
