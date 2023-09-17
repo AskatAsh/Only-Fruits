@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-*{
+
+* {
     font-family: 'Lato', sans-serif;
 }
-.carousel .btn-circle{
+
+.carousel .btn-circle {
     background: #121212;
     border: none;
     color: #fff;
+}
+
+.carousel .hero-overlay {
+    padding: 50px 0px ;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+@media screen and (max-width: 576px) {
+    .carousel .btn-circle {
+        min-height: 0;
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.75rem;
+    }
 }
