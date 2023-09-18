@@ -10,7 +10,7 @@
     color: #fff;
 }
 
-.carousel .hero-overlay {
+.carousel > .carousel-item > .hero .hero-overlay {
     padding: 50px 0px;
     border-radius: 8px;
     background: linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%);
