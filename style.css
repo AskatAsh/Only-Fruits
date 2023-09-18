@@ -20,6 +20,10 @@
     /* padding-top: auto; */
     padding-bottom: 200px;
 }
+.hero .hero-overlay{
+    border-radius: 8px;
+    background: rgba(18, 18, 18, 0.70);
+}
 .fruits {
     border-radius: 8px;
     background: #FFF;
